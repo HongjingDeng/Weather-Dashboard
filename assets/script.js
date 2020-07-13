@@ -35,7 +35,7 @@ $("#searchBtn").on("click", function () {
             console.log(response.main.humidity)
             console.log(response.wind.speed)
 
-            getCurrentConditions(response);
+            getCurrentWeather(response);
             getCurrentForecast(response);
             makeList();
         })
@@ -46,7 +46,7 @@ function makeList() {
     $(".list").append(listItem);
 }
 
-function getCurrentConditions(response) {
+function getCurrentWeather(response) {
 
     // get the temperature and convert to fahrenheit 
     let tempF = (response.main.temp - 273.15) * 1.80 + 32;

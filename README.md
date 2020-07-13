@@ -7,4 +7,4 @@ I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 
 ## target look
-<img scr = Weather-dashboard-demo.png>
+<img src = Weather-dashboard-demo.png>
